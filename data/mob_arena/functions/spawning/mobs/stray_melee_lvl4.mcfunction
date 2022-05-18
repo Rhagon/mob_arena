@@ -1,0 +1,1 @@
+summon minecraft:stray ~ ~0.5 ~ { HandItems:[{id:"minecraft:iron_sword", Count:1}], ArmorItems:[{},{ id:"minecraft:chainmail_leggings", Count:1 }, { id:"minecraft:chainmail_chestplate", Count:1 }, { id:"minecraft:stone_button", Count:1 }], Tags:[mob_arena.all, mob_arena.mob] }

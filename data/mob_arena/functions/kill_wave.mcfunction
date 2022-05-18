@@ -1,0 +1,1 @@
+kill @e[tag=mob_arena.mob]

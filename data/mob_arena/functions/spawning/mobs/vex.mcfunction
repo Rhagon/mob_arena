@@ -1,0 +1,1 @@
+summon minecraft:vex ~ ~0.5 ~ { Tags: [mob_arena.all, mob_arena.mob] }
