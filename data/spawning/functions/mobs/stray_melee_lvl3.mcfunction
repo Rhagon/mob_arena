@@ -1,0 +1,1 @@
+summon minecraft:stray ~ ~0.5 ~ { HandItems:[{id:"minecraft:stone_sword", Count:1}], ArmorItems:[{},{},{},{ id: "minecraft:iron_helmet", Count: 1 }], Tags:[spawning.mob] }

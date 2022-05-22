@@ -1,0 +1,1 @@
+summon minecraft:witch ~ ~0.5 ~ { Tags: [spawning.mob] }

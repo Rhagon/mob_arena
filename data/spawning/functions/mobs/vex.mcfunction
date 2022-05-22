@@ -1,0 +1,1 @@
+summon minecraft:vex ~ ~0.5 ~ { Tags: [spawning.mob] }

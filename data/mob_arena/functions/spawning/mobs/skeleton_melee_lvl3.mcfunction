@@ -1,1 +1,0 @@
-summon minecraft:skeleton ~ ~0.5 ~ { HandItems:[{id:"minecraft:stone_sword", Count:1}], ArmorItems:[ {},{ id: "minecraft:leather_leggings", Count: 1, tag: {display:{color:9408399}} }, { id: "minecraft:leather_chestplate", Count: 1, tag: {display:{color:9408399}} }, { id:"minecraft:stone_button", Count:1 } ], Tags:[mob_arena.all,mob_arena.mob] }

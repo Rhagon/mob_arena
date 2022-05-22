@@ -1,1 +1,0 @@
-summon minecraft:stray ~ ~0.5 ~ { HandItems:[{ id:"minecraft:bow", tag:{Enchantments:[{ id:power, lvl:2 }]}, Count:1 }], ArmorItems:[ {},{},{}, { id: "minecraft:iron_helmet", Count: 1 } ], Tags:[mob_arena.all, mob_arena.mob] }

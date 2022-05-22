@@ -1,1 +1,0 @@
-summon minecraft:skeleton ~ ~0.5 ~ { PersistenceRequired:true, ArmorItems:[{},{},{},{id:"minecraft:stone_button",Count:1}], Tags:[mob_arena.all,mob_arena.mob] }
