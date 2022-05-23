@@ -1,4 +1,4 @@
-function mob_arena:spawning/waves/wave4
+function spawning:waves/wave4
 
 scoreboard players set #spawning spawning.mod.zombie_tank_lvl5 10
 scoreboard players set #spawning spawning.mod.zombie_assassin_lvl5 10

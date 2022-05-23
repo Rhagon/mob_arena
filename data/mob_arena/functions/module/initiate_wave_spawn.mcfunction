@@ -1,0 +1,1 @@
+execute store result score #mob_arena mob_arena.mod.wave_spawn_timer run scoreboard players get #mob_arena mob_arena.param.wave_spawn_delay

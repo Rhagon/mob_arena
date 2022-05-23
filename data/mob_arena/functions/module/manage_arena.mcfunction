@@ -20,6 +20,13 @@ execute as @a[tag=mob_arena.player,tag=!mob_arena.alive,tag=!mob_arena.dead] unl
 #Check player death count
 execute as @a[tag=mob_arena.player] if score @s mob_arena.mod.player_died matches 1.. run function mob_arena:module/handle_player_death
 
+#Check alive player count
+execute if score #mob_arena mob_arena.mod.catch_failure matches 1 unless entity @e[tag=mob_arena.alive] run function mob_arena:module/handle_arena_failure
+
 #Check wave status
-execute if score #mob_arena mob_arena.mobs_left matches 1.. run scoreboard players set #mob_arena mob_arena.finished_wave 0
-execute if score #mob_arena mob_arena.mobs_left matches 0 if score #mob_arena mob_arena.finished_wave matches 1 run function mob_arena:module/handle_wave_finish
+execute if score #mob_arena mob_arena.mobs_left matches 0 if score #mob_arena mob_arena.mod.wait_for_wave_finish matches 1 run function mob_arena:module/handle_wave_finish
+#Handle timers
+execute if score #mob_arena mob_arena.mod.wave_spawn_timer matches 0.. run scoreboard players remove #mob_arena mob_arena.mod.wave_spawn_timer 1
+execute if score #mob_arena mob_arena.mod.wave_spawn_timer matches 0 run function mob_arena:module/handle_wave_spawn
+execute if score #mob_arena mob_arena.mod.exit_timer matches 0.. run scoreboard players remove #mob_arena mob_arena.mod.exit_timer 1
+execute if score #mob_arena mob_arena.mod.exit_timer matches 0 run function mob_arena:stop

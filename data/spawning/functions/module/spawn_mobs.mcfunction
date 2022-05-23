@@ -1,6 +1,6 @@
 #Spawn vexes
-execute at @e[tag=spawning.vex_spawn,sort=random,limit=1] if score #spawning spawning.mod.modvex matches 1.. run function spawning:mobs/vex
-execute if score #spawning spawning.mod.modvex matches 1.. run scoreboard players remove #spawning spawning.mod.modvex 1
+execute at @e[tag=spawning.vex_spawn,sort=random,limit=1] if score #spawning spawning.mod.vex matches 1.. run function spawning:mobs/vex
+execute if score #spawning spawning.mod.vex matches 1.. run scoreboard players remove #spawning spawning.mod.vex 1
 
 #Spawn Witches
 execute at @e[tag=spawning.witch_spawn,sort=random,limit=1] if score #spawning spawning.mod.witch matches 1.. run function spawning:mobs/witch
