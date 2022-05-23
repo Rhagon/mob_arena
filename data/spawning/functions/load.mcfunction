@@ -16,6 +16,7 @@ scoreboard objectives add spawning.has_wave_left dummy
 #spawning.witch_spawn
 #spawning.player_arena_spawn
 #spawning.player_death_spawn
+#spawning.player_exit_spawm
 #spawning.mob
 
 #Module variables
