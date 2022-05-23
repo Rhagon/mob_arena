@@ -1,3 +1,3 @@
-function mob_arena:kill_wave
-scoreboard players set #mob_arena mob_arena.wave_size 0
-bossbar set mob_arena:current_wave visible false
+scoreboard players set #mob_arena mob_arena.running 0
+function spawning:kill_wave
+function mob_arena:module/bossbar/hide

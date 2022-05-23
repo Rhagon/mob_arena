@@ -1,5 +1,5 @@
 {
     "values": [
-        "spawning:tick"
+        "spawning:tick", "mob_arena:tick"
     ]
 }

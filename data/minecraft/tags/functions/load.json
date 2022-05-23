@@ -1,5 +1,5 @@
 {
     "values": [
-        "spawning:load"
+        "spawning:load", "mob_arena:load"
     ]
 }
