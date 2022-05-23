@@ -1,1 +1,2 @@
-tag @s remove mob_arena.player mob_arena.sees_bossbar
+tag @s remove mob_arena.player
+tag @s remove mob_arena.sees_bossbar
